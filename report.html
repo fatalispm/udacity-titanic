@@ -2932,7 +2932,7 @@ Make sure to keep track of the various features and conditions you tried before 
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Question-4">Question 4<a class="anchor-link" href="#Question-4">&#182;</a></h3><p><em>Describe the steps you took to implement the final prediction model so that it got an accuracy of at least 80%. What features did you look at? Were certain features more informative than others? Which conditions did you use to split the survival outcomes in the data? How accurate are your predictions?</em><br>
-<strong>Hint:</strong> Run the code cell below to see the accuracy of your predictions.</p>
+First of all I used feature "Sex" as it is the more relevant feature(I suppose, haven't tested it with DecisionTrees or other algorithms). I also found out that male passengers with 'Age' <10 mostly survived. Another important features were SibSp and Parch, adding them allowed me to score 80%>.</p>
 
 </div>
 </div>
